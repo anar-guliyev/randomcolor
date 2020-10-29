@@ -1,4 +1,14 @@
 div {
     position: absolute;
     border-radius: 50%;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
